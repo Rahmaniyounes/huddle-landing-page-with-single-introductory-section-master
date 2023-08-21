@@ -75,6 +75,11 @@ button {
     top: 15px;
 }
 
+button:hover {
+    color: white;
+    background: #E980E8;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
@@ -87,6 +92,10 @@ footer img {
     margin: 10px;
     height: 30px;
     filter: invert(100%) sepia(6%) saturate(7470%) hue-rotate(240deg) brightness(108%) contrast(105%);
+}
+
+footer img:hover {
+    filter: invert(82%) sepia(8%) saturate(6574%) hue-rotate(247deg) brightness(94%) contrast(94%);
 }
 
 @media screen and (max-width:375px) {
